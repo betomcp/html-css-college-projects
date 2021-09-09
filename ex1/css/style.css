@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 16px;
+}
+
+header{
+    background-color: rgb(5, 70, 95);
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div{
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+    text-transform: uppercase;
+    color: white;
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+
+
+/* FIM menu */
+
+.container_1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.imagens{
+    width: 24%;
+}
+
+.imagens img{
+    width: 100%;
+}
+
+.imagens p{
+    margin-bottom: 15px;
+}
+
+.imagens a{
+    text-decoration: none;
+    background-color: rgb(5, 70, 95);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;  
+}
+
+
+.container_2{
+    background-image: url(../images/fundo.jpg);
+    background-size: cover;
+    height: 43vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email_div{
+    background-color: rgba(255, 255, 255, 0.63);
+    padding: 3.123rem 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email_div h2{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_div input{
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.input_text{
+    width: 300px;
+}
+
+.input_button{
+    border-radius: 0 5px 5px 0;
+    color: white;
+    background-color: rgb(5, 70, 95);
+}
