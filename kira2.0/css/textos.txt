@@ -1,0 +1,5 @@
+O robô Kira 2.0 é uma máquiina desenvolvida pela equipe "Os Grandes Soldadores"
+criada para competir na Robo cup, competição que acontece na faculdade FIAP anualmente
+com os alunos do primeiro ano de SI. Este robô é equipado com duas armas, que quando desativadas
+ficam lado a lado dentro dos perímetros do robô, e quando ativadas, se abrem uma para a frente, e
+a outra para trás, fazendos com que o robô tenha um alcance maior para ataques em ambos os lados.
