@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* TELA NORMAL  */
+
+@media (min-width: 751px){
+
+    html{
+        font-size: 18;
+    }
+
+    hr{
+        display: none;
+    }
+
+    header{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 10vh;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5px;
+    }
+
+    nav{
+        text-transform: uppercase;
+        display: flex;
+    }
+
+    nav ul{
+        display: flex;  
+        list-style: none;
+    }
+
+    nav li{
+        padding: 10px 30px;
+    }   
+
+    h3{
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        margin-left: 20px;
+    }
+
+    h3 div{
+        background-color: rgb(34, 34, 34);
+        color: rgb(211, 211, 211);
+        padding: 3px 1px;
+    }
+
+
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container_1{
+        margin-top: 12vh;
+        width: 90%;
+        background-image: url(./images/banner.jpg);
+        background-size: cover;
+        background-position: right;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        padding: 0 0 0 5%;
+    }
+
+
+    h1{
+        color: rgb(8, 185, 255);
+        text-transform: uppercase;
+        font-size: 6rem;
+    }
+
+    h2{
+        text-transform: uppercase;
+        font-size: 2.6rem;
+    }
+
+    h4{
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        color: rgb(119, 119, 119);
+    }
+
+    h5{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    nav.style{
+        display: block;
+    }
+
+    .cards{
+        display: flex;
+        align-items: center;
+        width: 90%;
+    }
+
+    .card{
+        padding: 20px;
+    }
+
+    p{
+        color: rgb(119, 119, 119);
+        padding: 5px 0;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .cards a{
+        color: rgb(8, 185, 255);
+        text-decoration: none;
+        padding: 5px 0;
+        font-size: 1rem;
+    }
+
+}
+
+
+
+
+
+/* PARA CELULAR */
+
+@media (max-width: 750px){
+    header{
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: auto;
+        background-color: rgba(255, 255, 255, 0.911);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5px;
+    }
+
+    h3{
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+
+    h3 div{
+        background-color: rgb(34, 34, 34);
+        color: rgb(211, 211, 211);
+        padding: 3px 1px;
+    }
+
+    nav{
+        text-transform: uppercase;
+        margin-top: 10px;
+        display: none;
+    }
+
+    nav li{
+        padding: 10px 0;
+        font-size: .9rem;
+    }
+
+    .menu_burger{
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .menu_burger hr{
+        background-color: rgb(78, 78, 78);
+        height: 5px;
+        width: 50%;
+        border: none;
+        margin-top: 3px;
+    }
+
+   
+
+
+    /* FIM MENU  */
+
+    .container_1{
+        background-image: url(./images/banner.jpg);
+        background-size: cover;
+        background-position:  right;
+        min-height: 250px;
+        display: flex;
+        align-items: center;
+        padding: 0 0 0 20px;
+    }
+
+    h1{
+        color: rgb(8, 185, 255);
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+
+    h2{
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+
+    h4{
+        font-size: 0.8rem;
+        color: rgb(119, 119, 119);
+    }
+
+    h5{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 90%;
+        padding: 10px 0;
+    }
+
+    .cards img{
+        width: 10%;
+    }
+
+    p{
+        color: rgb(119, 119, 119);
+        padding: 5px 0;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .cards a{
+        color: rgb(8, 185, 255);
+        text-decoration: none;
+        padding: 5px 0;
+        font-size: 1rem;
+    }
+}
